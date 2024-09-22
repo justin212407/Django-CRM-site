@@ -56,7 +56,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'Password123',
         'HOST' : 'localhost',
-        'PORT' : '3306`'
+        'PORT' : '3306'
     }
 }
 
@@ -101,3 +101,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SECRET_KEY = '^f)d2833xjd@n-ap&=7s8ozey8$x-xd)ofq5x2=sl22y)=5k_('
